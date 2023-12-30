@@ -1,14 +1,7 @@
 class Card:
-    suits = ["spades",
-             "hearts",
-             "diamonds",
-             "clubs"]
+    suits = ["Espada", "Basto", "Oro", "Copa"]
     
-    values = [None, None,"2", "3",
-              "4", "5", "6", "7",
-              "8", "9", "10",
-              "Jack", "Queen",
-              "King", "Ace"]
+    values = ["anchoEspada", "anchoBasto", "7", "6", "5", "4", "3", "2", "1","anchoOro", "anchoCopa","12","11","10"]
 
     def __init__(self, v, s):
         """suit + value are ints"""
